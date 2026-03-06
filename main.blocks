@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="`{e4jv{N?N|`nRc4L4m/" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="=2UTAY-xEG|F@4Jiflkm"><mutation elseif="2"></mutation><value name="IF0"><shadow type="logic_boolean" id="QJP`]IUkent@{fc#~LaM"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="Tr6/[@PiS9mM^I-W7ifW"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO0"><block type="device_show_leds" id="ndFz~DsE)T[4GZ88.60K"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="music_playable_play" id="|f/:F(6Wt0`Nh0m,qUN?"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="NGK^o0y@:0_.WuQBv%u{"><value name="melody"><shadow type="melody_editor" id="du$5|(eCQNuJ{H8)+h8%"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="Q1H{C|76Ihx;Nk:r_h]H"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></statement><value name="IF1"><shadow type="logic_boolean" id="ar]JV`DZ5u#z]eRQtN]Y"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="P=CD*RUX-k12SY{T@LLt"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO1"><block type="device_show_leds" id="I0Bc5x^Rb=P#qqmB/t[F"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="|?RTRE@|[*sW@rCZmFDN"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="_)#57Q/#[tYHv(p|c5l2"><field name="gesture">Gesture.ScreenUp</field></block></value><statement name="DO2"><block type="device_show_leds" id="ayo%M,K::@R#A7~BAcMW"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
